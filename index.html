@@ -1,0 +1,223 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Palette</title>
+
+    <style>
+        body {
+            margin: 0;
+            background-color: #282625;
+            font-family: Arial, sans-serif;
+        }
+
+        .composicion {
+            position: relative;
+            width: 80%;
+            height: 680px;
+            margin: 7% auto;
+            background-color: #282625;
+           
+        }
+
+        
+
+        .lime {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 37%;
+            height: 25%;
+            background-color: #CCFF02;
+        }
+
+        .storm {
+            position: absolute;
+            top: 25%;
+            left: 0;
+            width: 37%;
+            height: 25%;
+            background-color: #8696A8;
+        }
+
+        .violet {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: 37%;
+            height: 25%;
+            background-color: #E4D2FC;
+        }
+
+        .chilli {
+            position: absolute;
+            top: 75%;
+            left: 0;
+            width: 37%;
+            height: 25%;
+            background-color: #EF432B;
+        }
+
+       
+
+        .dark {
+            position: absolute;
+            top: 0;
+            left: 37%;
+            width: 37%;
+            height: 38%;
+            background-color: #282625;
+        }
+
+        .light {
+            position: absolute;
+            top: 38%;
+            left: 37%;
+            width: 37%;
+            height: 62%;
+            background-color: #EFEAE8;
+        }
+
+
+
+        .forest {
+            position: absolute;
+            top: 0;
+            left: 74%;
+            width: 26%;
+            height: 100%;
+            background-color: #325444;
+        }
+
+       
+
+        .texto {
+            position: absolute;
+            margin: 15px;
+            font-size: 13px;
+        }
+
+        .nombre {
+            position: absolute;
+            margin: 40px 15px;
+            font-size: 75px;
+        }
+
+        .texto-claro {
+            color: #EFEAE8;
+        }
+
+        .texto-oscuro {
+            color: #282625;
+        }
+
+        .texto-verde {
+            color: #325444;
+        }
+
+        .texto-rojo {
+            color: #EF432B;
+        }
+
+        .lime .nombre {
+            top: 0;
+            left: 0;
+        }
+
+        .storm .nombre {
+            top: 0;
+            left: 0;
+        }
+
+        .violet .nombre {
+            top: 0;
+            left: 0;
+            color: #EF432B;
+        }
+
+        .chilli .nombre {
+            top: 0;
+            left: 0;
+            color: #EFEAE8;
+        }
+
+        .dark .nombre {
+            top: 0;
+            left: 0;
+            font-size: 85px;
+            color: #EFEAE8;
+        }
+
+        .light .nombre {
+            top: 45%;
+            left: 0;
+            font-size: 60px;
+            color: #282625;
+        }
+
+        .forest .nombre {
+            top: 10%;
+            left: 30%;
+            font-size: 75px;
+            line-height: 0.9;
+            color: #EFEAE8;
+        }
+
+        
+
+        .codigo {
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin: 12px;
+            font-size: 13px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="composicion">
+
+        <div class="lime">
+            <p class="codigo texto-oscuro">#CCFF02</p>
+            <p class="nombre">LIME</p>
+        </div>
+
+        <div class="storm">
+            <p class="codigo texto-claro">#8696A8</p>
+            <p class="nombre texto-claro">STORM</p>
+        </div>
+
+        <div class="violet">
+            <p class="codigo texto-rojo">#E4D2FC</p>
+            <p class="nombre">VIOLET</p>
+        </div>
+
+        <div class="chilli">
+            <p class="codigo texto-claro">#EF432B</p>
+            <p class="nombre">CHILLI</p>
+        </div>
+
+        <div class="dark">
+            <p class="codigo texto-claro">#282625</p>
+            <p class="nombre">DARK</p>
+        </div>
+
+        <div class="light">
+            <p class="codigo texto-oscuro">#EFEAE8</p>
+            <p class="nombre">LIGHT &amp;<br>BRIGHT</p>
+        </div>
+
+        <div class="forest">
+            <p class="codigo texto-claro">#325444</p>
+            <p class="nombre">F<br>O<br>R<br>E<br>S<br>T</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
